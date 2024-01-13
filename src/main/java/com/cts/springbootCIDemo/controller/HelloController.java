@@ -12,4 +12,9 @@ public class HelloController {
     public String sayHello(){
         return "hello from CI Demo";
     }
+
+    @GetMapping("/newHello")
+    public String newEndpoint(){
+        return "Added new endpoint";
+    }
 }
