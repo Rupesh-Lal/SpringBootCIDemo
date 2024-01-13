@@ -15,6 +15,6 @@ public class HelloController {
 
     @GetMapping("/newHello")
     public String newEndpoint(){
-        return "Added new endpoint";
+        return "Added new endpoint in github";
     }
 }
